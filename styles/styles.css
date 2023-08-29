@@ -17,6 +17,10 @@
   z-index: -1;
 }
 
+.menu {
+  display: none;
+}
+
 .logo img {
   width: 125px;
 }
@@ -30,12 +34,12 @@
   display: flex;
   list-style-type: none;
   gap: 12px;
-  font-size: 10px;
+  font-size: 20px;
   color: var(--blue-text);
 }
 
-.nav_list li:last-child {
-  color: var(--orange-color);
+.nav_list li:last-child a {
+  color: var(--orange-color) !important;
 }
 
 .nav_list li {
@@ -46,11 +50,16 @@
 .nav_list li::before {
   content: "";
   position: absolute;
-  top: 14px;
+  top: 27px;
   width: 0;
   height: 3px;
   background-color: var(--orange-color);
   transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-text) !important;
 }
 
 .nav_list li:hover::before {

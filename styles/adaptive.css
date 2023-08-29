@@ -1,0 +1,123 @@
+@media all and (max-width: 376px) {
+  .nav_list {
+    display: none;
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .hero {
+    height: 820px;
+  }
+
+  .nav_bg {
+    height: 135px;
+    object-fit: contain;
+  }
+  .hero_bg {
+    height: 530px;
+    object-fit: cover;
+  }
+
+  .menu {
+    display: block;
+  }
+  .hero_start {
+    flex-direction: column-reverse;
+    height: 480px;
+    justify-content: end;
+  }
+  .about {
+    height: fit-content;
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .about_left {
+    width: 90%;
+  }
+  .hero_down {
+    bottom: 292px;
+  }
+  .hero_left button {
+    width: 100%;
+  }
+  .hero_end {
+    flex-direction: column;
+    margin-top: 65px;
+    align-items: center;
+  }
+  .hero_left {
+    width: 65%;
+  }
+  .hero_right {
+    width: 92%;
+  }
+  .cust_list {
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    margin-left: -29px;
+  }
+  .customers {
+    margin-top: 73px;
+  }
+  .carousel-indicators {
+    margin-left: 27%;
+  }
+  .about_right {
+    width: 90%;
+  }
+  .objects {
+    margin-top: 100px;
+  }
+  .numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .number_item {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  .hidden {
+    display: none !important;
+  }
+  .daniel_pillow {
+    width: 90%;
+  }
+  footer {
+    margin-top: 63px;
+  }
+  footer p {
+    margin-top: 10px;
+  }
+  .pillow_daniel {
+    width: 38%;
+  }
+  .tools_right {
+    width: 90%;
+  }
+  .tools_left {
+    width: 65%;
+  }
+  .carousel-item {
+    width: 80% !important;
+    margin-left: 60px;
+    margin-top: 35px;
+  }
+  .carousel {
+    width: 295px !important ;
+  }
+  .tools_end {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .carousel-control-prev {
+    left: -7px !important;
+  }
+  .map {
+    width: 50%;
+  }
+}
